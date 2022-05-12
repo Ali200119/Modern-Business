@@ -1,1 +1,1 @@
-# Homework30
+Homework for Thursday (12.05.2022)
