@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Karla;
+    src: url("./fonts/Karla.ttf");
+}
+
+nav {
+    font-family: Karla;
+    border: 0 solid;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 15px;
+    background-color: #212529;
+}
+
+nav .Logo a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+}
+
+nav .Menu ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    border: 0 solid;
+    width: 480px;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+nav .Menu ul li a {
+    color: #9A9C9E;
+    text-decoration: none;
+}
+
+nav .Menu ul .Caret {
+    color: #9A9C9E;
+    cursor: pointer;
+}
+
+nav .Menu ul li:hover a {
+    color: #C7C8C9;
+    transition-duration: 300ms;
+}
+
+nav .Menu ul li:hover .Caret {
+    color: #C7C8C9;
+    transition-duration: 300ms;
+}
+
+#Template {
+    border: 0 solid;
+    background-color: #212529;
+    height: 550px;
+    font-family: Karla;
+}
+
+#Template .Info .Title h1 {
+    color: white;
+    font-size: 50px;
+}
+
+#Template .Info .Title p {
+    color: #9A9C9E;
+    font-size: larger;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+#Template .Info .Title {
+    border: 0 solid;
+    width: 550px;
+}
+
+#Template .Info .Buttons .Left {
+    border: 1px solid #0D6EFD;
+    width: 125px;
+    height: 50px;
+    background-color: #0D6EFD;
+    border-radius: 6px;
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+
+#Template .Info .Buttons .Left h3 {
+    color: white;
+    text-align: center;
+    padding-top: 11px;
+}
+
+#Template .Info .Buttons .Right {
+    border: 1px solid white;
+    width: 125px;
+    height: 50px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+
+#Template .Info .Buttons .Right h3 {
+    color: white;
+    text-align: center;
+    padding-top: 11px;
+}
+
+#Template .Info .Buttons {
+    display: flex;
+    flex-wrap: wrap;
+    border: 0 solid white;
+    width: 290px;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+#Template .Info .Buttons .Left:hover {
+    border-color: #0B5ED7;
+    background-color: #0B5ED7;
+}
+
+#Template .Info .Buttons .Right:hover {
+    background-color: white;
+}
+
+#Template .Info .Buttons .Right:hover h3 {
+    color: black;
+}
