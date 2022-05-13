@@ -40,21 +40,24 @@ nav .Menu ul {
 nav .Menu ul li a {
     color: #9A9C9E;
     text-decoration: none;
+    transition-duration: 300ms;
 }
 
-nav .Menu ul .Caret {
+nav .Menu ul li .Caret {
     color: #9A9C9E;
     cursor: pointer;
+    font-size: small;
+    position: relative;
+    bottom: 2px;
+    transition-duration: 300ms;
 }
 
 nav .Menu ul li:hover a {
     color: #C7C8C9;
-    transition-duration: 300ms;
 }
 
 nav .Menu ul li:hover .Caret {
     color: #C7C8C9;
-    transition-duration: 300ms;
 }
 
 #Template {
@@ -132,4 +135,12 @@ nav .Menu ul li:hover .Caret {
 
 #Template .Info .Buttons .Right:hover h3 {
     color: black;
+}
+
+#Template .Info {
+    position: relative;
+    border: 0 solid;
+    width: 550px;
+    left: 330px;
+    top: 100px;
 }
