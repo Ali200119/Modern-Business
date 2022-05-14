@@ -19,6 +19,11 @@
     src: url("./fonts/DMSans-Bold.ttf");
 }
 
+@font-face {
+    font-family: Montserrat;
+    src: url("./fonts/Montserrat.ttf");
+}
+
 nav {
     font-family: Karla;
     border: 0 solid;
@@ -206,4 +211,53 @@ nav .Menu ul li:hover .Caret {
     border: 0 solid;
     width: 820px;
     justify-content: space-between;
+}
+
+#Quote .Position .Text {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-style: italic;
+    border: 0 solid;
+    width: 610px;
+    font-size: larger;
+    text-align: center;
+}
+
+#Quote .Position .Author img {
+    border-radius: 100%;
+}
+
+#Quote .Position .Author span {
+    font-family: DMSans;
+    position: relative;
+    bottom: 15px;
+    left: 13px;
+}
+
+#Quote .Position .Author .Slash {
+    color: #277DFD;
+}
+
+#Quote .Position .Author {
+    border: 0 solid;
+    width: 265px;
+    position: relative;
+    top: 25px;
+    left: 175px;
+}
+
+#Quote {
+    background-color: #F8F9FA;
+    height: 360px;
+    position: relative;
+    top: 205px;
+}
+
+#Quote .Position {
+    position: relative;
+    left: 650px;
+    top: 110px;
+    border: 0 solid;
+    width: 615px;
+    height: 145px;
 }
