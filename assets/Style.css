@@ -9,6 +9,16 @@
     src: url("./fonts/Karla.ttf");
 }
 
+@font-face {
+    font-family: DMSans;
+    src: url("./fonts/DMSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: DMSans-Bold;
+    src: url("./fonts/DMSans-Bold.ttf");
+}
+
 nav {
     font-family: Karla;
     border: 0 solid;
@@ -64,7 +74,6 @@ nav .Menu ul li:hover .Caret {
     border: 0 solid;
     background-color: #212529;
     height: 550px;
-    font-family: Karla;
 }
 
 #Template .Flex .Info {
@@ -74,18 +83,19 @@ nav .Menu ul li:hover .Caret {
 #Template .Flex .Info .Title h1 {
     color: white;
     font-size: 50px;
+    font-family: DMSans-Bold;
 }
 
 #Template .Flex .Info .Title p {
     color: #9A9C9E;
     font-size: larger;
-    font-weight: bold;
     padding-top: 15px;
+    font-family: DMSans;
 }
 
 #Template .Flex .Info .Title {
     border: 0 solid;
-    width: 550px;
+    width: 600px;
 }
 
 #Template .Flex .Info .Buttons .Left {
@@ -126,6 +136,7 @@ nav .Menu ul li:hover .Caret {
     width: 290px;
     justify-content: space-between;
     padding-top: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #Template .Flex .Info .Buttons .Left:hover {
@@ -145,9 +156,54 @@ nav .Menu ul li:hover .Caret {
     display: flex;
     flex-wrap: wrap;
     border: 0 solid white;
-    width: 1250px;
+    width: 1270px;
     justify-content: space-between;
     position: relative;
-    left: 350px;
+    left: 330px;
     top: 50px;
+}
+
+#Features {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 330px;
+    top: 100px;
+    border: 0 solid;
+    width: 1240px;
+    justify-content: space-between;
+}
+
+#Features .Title {
+    font-family: DMSans-Bold;
+    font-size: 20px;
+    border: 0 solid;
+    width: 300px;
+}
+
+#Features .Info h3 {
+    font-family: DMSans;
+    padding-top: 10px;
+}
+
+#Features .Info p {
+    font-size: 18px;
+    padding-top: 7px;
+}
+
+#Features .Info .Feature {
+    border: 0 solid;
+    width: 385px;
+}
+
+#Features .Info .Feature3and4 {
+    padding-top: 50px;
+}
+
+#Features .Info {
+    display: flex;
+    flex-wrap: wrap;
+    border: 0 solid;
+    width: 820px;
+    justify-content: space-between;
 }
