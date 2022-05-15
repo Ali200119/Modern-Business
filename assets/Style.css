@@ -218,8 +218,8 @@ nav .Menu ul li:hover .Caret {
     font-weight: bold;
     font-style: italic;
     border: 0 solid;
-    width: 610px;
-    font-size: larger;
+    width: 725px;
+    font-size: 23px;
     text-align: center;
 }
 
@@ -243,7 +243,7 @@ nav .Menu ul li:hover .Caret {
     width: 265px;
     position: relative;
     top: 25px;
-    left: 175px;
+    left: 235px;
 }
 
 #Quote {
@@ -255,7 +255,7 @@ nav .Menu ul li:hover .Caret {
 
 #Quote .Position {
     position: relative;
-    left: 650px;
+    left: 600px;
     top: 110px;
     border: 0 solid;
     width: 615px;
@@ -269,7 +269,14 @@ nav .Menu ul li:hover .Caret {
 }
 
 #Blog .Cards {
-    
+    display: flex;
+    flex-wrap: wrap;
+    border: 0 solid;
+    width: 1170px;
+    justify-content: space-between;
+    position: relative;
+    left: 360px;
+    top: 60px;
 }
 
 #Blog .Title h1 {
@@ -349,5 +356,127 @@ nav .Menu ul li:hover .Caret {
 }
 
 #Blog .Cards .Card1 .Position1 {
-    padding-left: 15px;
+    padding-left: 10px;
+}
+
+#Blog .Cards .Card2 {
+    border: 0 solid;
+    width: 350px;
+    height: 500px;
+    cursor: pointer;
+    box-shadow: 1px 1px 8px 1px gray;
+}
+
+#Blog .Cards .Card2 .Category {
+    font-family: DMSans;
+    border: solid #277DFD;
+    background-color: #277DFD;
+    color: white;
+    width: 50px;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+}
+
+#Blog .Cards .Card2 .Description h3 {
+    font-family: DMSans;
+    position: relative;
+    top: 40px;
+}
+
+#Blog .Cards .Card2 .Description p {
+    font-size: 18px;
+    border: 0 solid;
+    width: 340px;
+    position: relative;
+    top: 55px;
+}
+
+#Blog .Cards .Card2 .Author {
+    position: relative;
+    top: 95px;
+}
+
+#Blog .Cards .Card2 .Author img {
+    border-radius: 100%;
+}
+
+#Blog .Cards .Card2 .Author h4 {
+    font-family: DMSans;
+    position: relative;
+    left: 55px;
+    bottom: 45px;
+}
+
+#Blog .Cards .Card2 .Author p {
+    opacity: 0.6;
+    position: relative;
+    left: 55px;
+    bottom: 42px;
+}
+
+#Blog .Cards .Card2 .Position2 {
+    padding-left: 10px;
+}
+
+#Blog .Cards .Card3 {
+    border: 0 solid;
+    width: 350px;
+    height: 500px;
+    cursor: pointer;
+    box-shadow: 1px 1px 8px 1px gray;
+}
+
+#Blog .Cards .Card3 .Category {
+    font-family: DMSans;
+    border: solid #277DFD;
+    background-color: #277DFD;
+    color: white;
+    width: 47px;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    top: 30px;
+}
+
+#Blog .Cards .Card3 .Description h3 {
+    font-family: DMSans;
+    position: relative;
+    top: 40px;
+}
+
+#Blog .Cards .Card3 .Description p {
+    font-size: 18px;
+    border: 0 solid;
+    width: 340px;
+    position: relative;
+    top: 55px;
+}
+
+#Blog .Cards .Card3 .Author {
+    position: relative;
+    top: 95px;
+}
+
+#Blog .Cards .Card3 .Author img {
+    border-radius: 100%;
+}
+
+#Blog .Cards .Card3 .Author h4 {
+    font-family: DMSans;
+    position: relative;
+    left: 55px;
+    bottom: 45px;
+}
+
+#Blog .Cards .Card3 .Author p {
+    opacity: 0.6;
+    position: relative;
+    left: 55px;
+    bottom: 42px;
+}
+
+#Blog .Cards .Card3 .Position3 {
+    padding-left: 10px;
 }
