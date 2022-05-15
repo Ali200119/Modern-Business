@@ -480,3 +480,90 @@ nav .Menu ul li:hover .Caret {
 #Blog .Cards .Card3 .Position3 {
     padding-left: 10px;
 }
+
+#SignIn {
+    position: relative;
+    top: 450px;
+    left: 360px;
+    border: 0 solid;
+    width: 1170px;
+    height: 165px;
+    background-color: #277DFD;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#SignIn .Info {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#SignIn .Info h1 {
+    font-family: DMSans;
+    font-size: 28px;
+    color: white;
+}
+
+#SignIn .Info p {
+    font-family: DMSans;
+    color: #90BDFE;
+    padding-top: 5px;
+}
+
+#SignIn .Form {
+    border: 0 solid;
+    display: flex;
+    flex-wrap: wrap;
+    width: 345px;
+    height: 85px;
+    position: relative;
+    top: 50px;
+    right: 50px;
+}
+
+#SignIn .Form input {
+    padding-left: 15px;
+    border: 1px solid gray;
+    width: 250px;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 15px;
+}
+
+#SignIn .Form p {
+    font-family: DMSans;
+    color: #90BDFE;
+    font-size: 13px;
+}
+
+#SignIn .Form .Button {
+    font-family: Karla;
+    color: white;
+    border: 1px solid white;
+    width: 80px;
+    height: 38px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 1px;
+    right: 1px;
+    transition-duration: 300ms;
+}
+
+#SignIn .Form .Button:hover {
+    background-color: white;
+}
+
+#SignIn .Form .Button:hover h4 {
+    color: black;
+}
+
+#SignIn .Form .Button h4 {
+    text-align: center;
+    padding-top: 8px;
+}
