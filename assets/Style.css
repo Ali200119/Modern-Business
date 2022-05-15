@@ -567,3 +567,40 @@ nav .Menu ul li:hover .Caret {
     text-align: center;
     padding-top: 8px;
 }
+
+footer {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 0 solid;
+    height: 75px;
+    background-color: #212529;
+    position: relative;
+    top: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+footer .Left {
+    color: white;
+    padding-left: 360px;
+}
+
+footer .Right ul {
+    display: flex;
+    flex-wrap: wrap;
+    border: 0 solid;
+    width: 200px;
+    justify-content: space-between;
+    list-style: none;
+    position: relative;
+    right: 380px;
+}
+
+footer .Right ul li a {
+    color: white;
+}
+
+footer .Right ul li {
+    color: white;
+}
